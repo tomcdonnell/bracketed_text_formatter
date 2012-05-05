@@ -17,26 +17,24 @@
 
 $filenamesJs = array
 (
-   'index.js'                                                         ,
-   '../library/tom/js/contrib/jquery/1.5/jquery_minified.js'          ,
-   '../library/tom/js/contrib/utils/DomBuilder.js'                    ,
-   '../library/tom/js/contrib/utils/firebugx.js'                      ,
-   '../library/tom/js/general_objects/BracketedTextFormatter.js'      ,
-   '../library/tom/js/general_objects/BracketedTextParser.js'         ,
-   '../library/tom/js/gui_elements/other/BracketedTextFormatterGui.js',
-   '../library/tom/js/utils/utils.js'                                 ,
-   '../library/tom/js/utils/utilsArray.js'                            ,
-   '../library/tom/js/utils/utilsDOM.js'                              ,
-   '../library/tom/js/utils/utilsObject.js'                           ,
-   '../library/tom/js/utils/utilsString.js'                           ,
-   '../library/tom/js/utils/utilsValidator.js'
+   'index.js'                                                  ,
+   'lib_tom/js/contrib/jquery/1.5/jquery_minified.js'          ,
+   'lib_tom/js/contrib/utils/DomBuilder.js'                    ,
+   'lib_tom/js/contrib/utils/firebugx.js'                      ,
+   'lib_tom/js/general_objects/BracketedTextFormatter.js'      ,
+   'lib_tom/js/general_objects/BracketedTextParser.js'         ,
+   'lib_tom/js/gui_elements/other/BracketedTextFormatterGui.js',
+   'lib_tom/js/utils/utils.js'                                 ,
+   'lib_tom/js/utils/utilsArray.js'                            ,
+   'lib_tom/js/utils/utilsDOM.js'                              ,
+   'lib_tom/js/utils/utilsObject.js'                           ,
+   'lib_tom/js/utils/utilsString.js'                           ,
+   'lib_tom/js/utils/utilsValidator.js'
 );
 
 // HTML code. //////////////////////////////////////////////////////////////////////////////////////
 ?>
-<!DOCTYPE html PUBLIC
- "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
  <head>
 <?php
