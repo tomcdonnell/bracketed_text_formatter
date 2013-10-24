@@ -12,45 +12,43 @@
 *
 \**************************************************************************************************/
 
-window.addEventListener('load', onLoadWindow, false);
-
-// Functions. //////////////////////////////////////////////////////////////////////////////////////
-
-function onLoadWindow(e)
-{
-   try
+$(document).ready
+(
+   function onLoadWindow(e)
    {
-      var f = 'onLoadWindow()';
-      UTILS.checkArgs(f, arguments, [Event]);
-      DomBuilder.apply(window);
+      try
+      {
+         var f = 'onLoadWindow()';
+         UTILS.checkArgs(f, arguments, ['function']);
 
-      var btf    = new BracketedTextFormatter();
-      var btfGui = new BracketedTextFormatterGui(btf)
+         var btf    = new BracketedTextFormatter();
+         var btfGui = new BracketedTextFormatterGui(btf)
 
-      document.body.appendChild
-      (
-         A
+         document.body.appendChild
          (
-            {style: 'font-size: small', href: 'http://www.tomcdonnell.net'},
-            'Back to tomcdonnell.net'
-         )
-      );
-      document.body.appendChild(H1({style: 'margin: 0'}, 'Bracketed Text Formatter'));
-      document.body.appendChild
-      (
-         P
+            A
+            (
+               {style: 'font-size: small', href: '../../index.php'},
+               'Back to tomcdonnell.net'
+            )
+         );
+         document.body.appendChild(H1({style: 'margin: 0'}, 'Bracketed Text Formatter'));
+         document.body.appendChild
          (
-            {style: 'font-size: small'},
-            'General purpose text formatter designed for any structured' +
-            ' text featuring balanced brackets eg. JSON.'
-         )
-      );
-      document.body.appendChild(btfGui.getDiv());
+            P
+            (
+               {style: 'font-size: small'},
+               'General purpose text formatter designed for any structured' +
+               ' text featuring balanced brackets eg. JSON.'
+            )
+         );
+         document.body.appendChild(btfGui.getDiv());
+      }
+      catch (e)
+      {
+         UTILS.printExceptionToConsole(f, e);
+      }
    }
-   catch (e)
-   {
-      UTILS.printExceptionToConsole(f, e);
-   }
-}
+);
 
 /*******************************************END*OF*FILE********************************************/

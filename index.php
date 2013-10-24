@@ -17,19 +17,18 @@
 
 $filenamesJs = array
 (
-   'index.js'                                                  ,
-   'lib_tom/js/contrib/jquery/1.5/jquery_minified.js'          ,
-   'lib_tom/js/contrib/utils/DomBuilder.js'                    ,
-   'lib_tom/js/contrib/utils/firebugx.js'                      ,
-   'lib_tom/js/general_objects/BracketedTextFormatter.js'      ,
-   'lib_tom/js/general_objects/BracketedTextParser.js'         ,
-   'lib_tom/js/gui_elements/other/BracketedTextFormatterGui.js',
-   'lib_tom/js/utils/utils.js'                                 ,
-   'lib_tom/js/utils/utilsArray.js'                            ,
-   'lib_tom/js/utils/utilsDOM.js'                              ,
-   'lib_tom/js/utils/utilsObject.js'                           ,
-   'lib_tom/js/utils/utilsString.js'                           ,
-   'lib_tom/js/utils/utilsValidator.js'
+   '../../lib/tom/js/contrib/jquery/1.7/jquery_minified.js'          ,
+   '../../lib/tom/js/contrib/utils/DomBuilder.js'                    ,
+   '../../lib/tom/js/general_objects/BracketedTextFormatter.js'      ,
+   '../../lib/tom/js/general_objects/BracketedTextParser.js'         ,
+   '../../lib/tom/js/gui_elements/other/BracketedTextFormatterGui.js',
+   '../../lib/tom/js/utils/utils.js'                                 ,
+   '../../lib/tom/js/utils/utilsArray.js'                            ,
+   '../../lib/tom/js/utils/utilsDOM.js'                              ,
+   '../../lib/tom/js/utils/utilsObject.js'                           ,
+   '../../lib/tom/js/utils/utilsString.js'                           ,
+   '../../lib/tom/js/utils/utilsValidator.js'                        ,
+   'index.js'
 );
 
 // HTML code. //////////////////////////////////////////////////////////////////////////////////////
